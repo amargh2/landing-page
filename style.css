@@ -2,6 +2,20 @@
     display: flex;
     background-color:#1F2937;
     justify-content: space-between;
+    padding: 12px;
+}
+
+.logo {
+    font-weight:bolder;
+}
+
+.larger-text {
+    font-size:48px;
+}
+
+.smaller-text {
+    font-size:18px;
+    color:#E5E7EB
 }
 
 .header-logo {
@@ -20,10 +34,89 @@ a:link, a:visited {
     display: flex;
     background-color:#1F2937;
     color: #f9faf8;
+    padding: 24px;
+    justify-content: space-around;
 }
 
+.intro-text button, .call-to-action button {
+    background-color: #3882F6;
+    width: 150px;
+    height:50px;
+    border-radius:10px;
+    color:#f9faf8;
+    font-weight: bolder;
+    font-size: 18px;
+}
 
 .intro-image {
-    max-width: 1000px;;
-    max-height: 300px;
+    width: 500px;
+    height: 500px;
+}
+
+.information-header{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:bolder;
+}
+
+.information-images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.image-descriptions {
+    display:flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.description {
+    text-align: center;
+    max-width: 200px;
+}
+
+img {
+    width: 200px;
+    height: 200px;}
+
+
+.quote-text {
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    background-color:#E5E7EB;
+    justify-content: center;
+    font-size: 36px;
+    padding: 48px;
+}
+
+.quote-text {
+    font-style: italic;
+    max-width: 80%;
+}
+
+.quoted-person {
+    font-size: 16px;
+    text-align: right;
+    font-weight: bolder;
+    font-style: none;
+}
+
+.call-to-action {
+    display:flex;
+    justify-content: space-between;
+    margin: 100px;
+    background-color: #3882F6;
+    padding: 32px;
+}
+
+.footer {
+    display:flex;
+    justify-content:center;
+    background-color:#1F2937;
+    color:#E5E7EB;
 }
